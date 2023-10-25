@@ -1,0 +1,29 @@
+# Site settings
+title: "sat2ka"
+bye_message: "Do you like my work and want to give back? Donate bitcoin: satoruka@getalby.com"
+baseurl: "https://sat2ka.github.io/"
+url: "https://sat2ka.github.io/"
+disqus:
+
+# Header settings
+web: "sat2ka.github.io"
+mail:
+    domain: "pm[dot]me"
+    name: "satoruka[at]"
+    href: "satoruka@proton.me"
+source_code:
+    server: "github.com"
+    nick: "sat2ka"
+blog:
+    server: "wordpress.com"
+    nick: "sat2ka"
+pgp: 
+    href: "https://keybase.io/satoruka/pgp_keys.asc"
+    key: "F15D 9FF0 62DE E35F"
+nostr: 
+    href: "https://iris.to/satoruka"
+    npub: "https://iris.to/satoruka"
+
+# Build settings
+markdown: kramdown
+permalink: /:categories/:title/

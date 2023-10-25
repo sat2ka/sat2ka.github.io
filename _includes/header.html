@@ -1,0 +1,25 @@
+<header class="row">
+  <div class="col-lg-8 col-lg-offset-2">
+    <a href="https://{{ site.web }}"><h1 class="">Satoruka</h1></a>
+    <p>
+    <span class="reserved">web</span> http<span class="number">s</span>// = <span class="string">"<a href="https://{{ site.web }}" target="_blank">{{ site.web }}</a>"</span>;
+    </p>
+    <p>
+   Github: <a href="https://{{ site.source_code.server }}/{{ site.source_code.nick }}" target="_blank"><span class="string">https://{{ site.source_code.server }}/<span class="reserved">{{ site.source_code.nick }}</span></span></a>
+    </p>
+    <p>
+    Email: <a href="mailto:{{ site.mail.href }}" target="_blank"><span class="string"><span class="reserved">{{ site.mail.name }}</span>{{ site.mail.domain }}</span></a>
+    </p>
+    <!-- <p>
+            printf(<a href="https://{{ site.blog.nick }}.{{ site.blog.server }}" target="_blank"><span class="string">"https://<span class="reserved">%s</span>.{{ site.blog.server }}<span class="reserved">\n</span>"</span></a>,nick);
+        </p> -->
+    <p> <!-- {{ site.baseurl }} <this is base url address command for href -->
+    PGP: <a href="{{ site.pgp.href }}" target="_blank"><span class="string">{{ site.pgp.key }}</span></a>
+    </p>
+    <p> <!-- NOSTR -->
+    NOSTR: <a href="{{ site.nostr.href }}" target="_blank"><span class="string">{{ site.nostr.npub }}</span></a>
+    </p>
+  </div>
+</header>
+
+{% include menu.html %}
